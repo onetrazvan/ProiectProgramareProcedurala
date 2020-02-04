@@ -1,6 +1,6 @@
 package main;
 
-public class Exercitiul_5 {
+public class Tema3_Exercitiul_5 {
 
 	/* Transformati un sir de caractere astfel: fiecare litera
 	   de pe pozitie para sa fie uppercase.                     */
