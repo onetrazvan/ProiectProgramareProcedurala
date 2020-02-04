@@ -1,12 +1,19 @@
 package main;
 
-public class Exercitiul_3{
+public class Exercitiul_3 {
+
+	/* Scrieti o clasa ce declara un array de tip
+	   int cu o singura valoare negtiva si restul 
+	   pozitive. Afisati  pozitia valorii negative
+	   din array.                                   */
+	
 	public static void main(String[] args) {
-		int a = 2;
-		if(++a < 4) // mai intai verifica daca a < 4 apoi il creste pe a cu o unitate
-			if(a++ < 4) // mai intai il creste pe a iar apoi verifica daca a < 4
-				System.out.println(a); // ajunge aici pentru ca conditia este indeplinita 
-			else
-				System.out.println(a); 
+		int[] array = new int[] {4,1,6,2,-1,9,0,3,7};
+		for(int i = 0; i < array.length; i++) {
+			if(array[i]<0)
+				System.out.print("Valoarea negativa se afla pe pozitia "+(i+1)+" in array.");
+		}
+
 	}
+
 }

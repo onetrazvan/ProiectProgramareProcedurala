@@ -1,11 +1,18 @@
 package main;
 
 public class Exercitiul_1 {
-	 
+
+	/* Scrieti un program care stocheaza intr-un vector 3 variabile
+	   de tip double declarate de voi si le afiseaza parcurgand vectorul  */
+	
 	public static void main(String[] args) {
-		int a = 3; // se declara variabila a si ii este atribuita valoarea 3
-		int b = (a=2)*a; // lui a i se schimba valoarea in 3 iar b primeste patratul lui a nou
-		int c = b * (b=5); // c primeste ca valoare produsul dintre b si b modificat
-		System.out.println("a=" + a + ", b=" + b + ", c=" +c); // dupa executarea programului se afiseaza "a=2, b=5, c=20"
+		double[] vector = new double[3];
+		vector[0]=230.34;
+		vector[1]=32134.1;
+		vector[2]=23;
+		System.out.print("Elevemntele vectorului sunt: ");
+		for(int i=0;i<3;i++)
+			System.out.print(vector[i]+", ");
 	}
+
 }
