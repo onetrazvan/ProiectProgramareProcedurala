@@ -1,6 +1,6 @@
 package main;
 
-public class Tema_3_Exercitiul_1 {
+public class Tema3_Exercitiul_1 {
 
 	/* Scrieti un program care stocheaza intr-un vector 3 variabile
 	   de tip double declarate de voi si le afiseaza parcurgand vectorul  */
