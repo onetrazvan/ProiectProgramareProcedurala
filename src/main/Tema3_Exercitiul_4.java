@@ -1,6 +1,6 @@
 package main;
 
-public class Exercitiul_4 {
+public class Tema3_Exercitiul_4 {
 
 	/* Scrieti o clasa ce transforma un String intr-un array de caractere.   */
 	
