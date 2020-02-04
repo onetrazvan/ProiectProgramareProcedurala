@@ -1,6 +1,6 @@
 package main;
 
-public class Exercitiul_3 {
+public class Tema3_Exercitiul_3 {
 
 	/* Scrieti o clasa ce declara un array de tip
 	   int cu o singura valoare negtiva si restul 
