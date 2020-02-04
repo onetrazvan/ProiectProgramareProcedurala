@@ -1,6 +1,6 @@
 package main;
 
-public class Tema3_Exercitiul_1_Suplimentar {
+public class Tema3_Exercitiul_1_Suplimentar { 
 	
 	/* Avand un sir (string) de forma unei propozitii, creati
 	   un vector care tine pe fiecare pozitie cate un cuvant pe propozitie.
