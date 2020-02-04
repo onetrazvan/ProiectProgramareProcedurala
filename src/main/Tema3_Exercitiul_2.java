@@ -1,6 +1,6 @@
 package main;
 
-public class Tema_3_Exercitiul_2 {
+public class Tema3_Exercitiul_2 {
 
 	/* Scrieti un program care afiseaza minimul,
 	   respectiv maximul dintr-un array de lungime 10. */
